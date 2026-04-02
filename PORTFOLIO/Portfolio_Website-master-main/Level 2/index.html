@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheets">
+    <title>My_portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./images/icon.png">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav class="flex items-center justify-between"> <!-- Navigation bar -->
+                <div class="left flex items-center">
+                    <div class="branding">
+                        <img src="./images/logo.png" alt="">
+                    </div>
+                    <div>
+                        <a href="#">Home</a>
+                        <a href="#about">About</a>
+                        <a href="#skills">Skills</a>
+                        <a href="#achievement">Achievement</a>
+                    </div>
+                </div>
+
+                <div class="right">
+                    <a href="#contact"><button class="btn btn-primary">Contact</button></a>
+                </div>
+            </nav> <!--ending nav -->
+            <div class="hero flex items-center justify-between">
+                <div class="left flex-1 flex justify-center">
+                    <img src="./images/Srishti_pic.jpg" alt="">
+                </div>
+                <br>
+                <br>
+                <div class="right flex-1">
+                    <br>
+                    <h6>Srishti Shaw</h6>
+                    <h1>I'm a Professional Full Stack Developer <span>& Coder</span></h1>
+
+                    <p>
+                        A passionate Full Stack Developer with experience in building scalable and responsive web
+                        applications.<br>
+                        I work on both frontend and backend to create complete, user-focused solutions.<br>
+                        I enjoy turning ideas into real-world applications using modern technologies and best practices.
+                    </p>
+
+                    <div>
+                        <a href="./images//Srishti_Final.pdf" download class="btn btn-secondary">
+                            Download My CV
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <section id="about" class="about">
+        <div class="container flex items-center">
+            <div class="flex-1">
+                <img class="about-me-img" src="./images/about_me-page-001.jpg" alt="">
+            </div>
+            <div class="flex-1">
+                <h1>About <span>Me</span></h1>
+                <h3>Hello! You are reading about Srishti Shaw.</h3>
+                <p>
+                    I have completed my Bachelor's degree in Information Technology from JIS College of Engineering
+                    (JISCE), Kalyani, West Bengal.
+                    I have a strong interest in web development and enjoy designing responsive and user-friendly
+                    websites.
+                    I am currently looking for opportunities to apply my skills and grow as a Software Developer in a
+                    professional environment.
+                </p>
+            </div>
+            <div class="social">
+                <a href="https://twitter.com/Srishti_2002?t=isWZt_sa_Ym6g7qvQWm2Jw&s=08"><img src="./images/twitter.png"
+                        alt=""></a>
+                <a href="https://www.linkedin.com/in/srishti-shaw-0b4227241" target="_blank"><img
+                        src="./images/Linkdin.png" alt=""></a>
+                <a href="https://instagram.com/shawsrishti__0809?igshid=MzNlNGNkZWQ4Mg==" target="_blank"><img
+                        src="./images/instagramlogo.png" alt=""></a>
+            </div>
+        </div>
+    </section>
+    <section id="skills" class="skills">
+        <div class="container">
+            <h1 class="section-heading"><span>My </span>Skills</h1>
+            <p>Technical expertise and hands-on experience in full stack development</p>
+
+            <div class="card-wrapper">
+
+                <div class="card">
+                    <h2>Java</h2>
+                    <p>(INTERMEDIATE)</p>
+                </div>
+
+                <div class="card">
+                    <h2>SQL</h2>
+                    <p>(INTERMEDIATE)</p>
+                </div>
+
+                <div class="card">
+                    <h2>Data Structures & Algorithms</h2>
+                    <p>(INTERMEDIATE)</p>
+                </div>
+
+                <div class="card">
+                    <h2>Spring Boot</h2>
+                    <p>(INTERMEDIATE)</p>
+                </div>
+
+                <div class="card">
+                    <h2>Hibernate & JDBC</h2>
+                    <p>(INTERMEDIATE)</p>
+                </div>
+
+                <div class="card">
+                    <h2>REST APIs</h2>
+                    <p>(INTERMEDIATE)</p>
+                </div>
+
+                <div class="card">
+                    <h2>HTML & CSS</h2>
+                    <p>(ADVANCED)</p>
+                </div>
+
+                <div class="card">
+                    <h2>JavaScript</h2>
+                    <p>(INTERMEDIATE)</p>
+                </div>
+
+                <div class="card">
+                    <h2>React.js</h2>
+                    <p>(BEGINNER)</p>
+                </div>
+
+                <div class="card">
+                    <h2>MySQL & PostgreSQL</h2>
+                    <p>(INTERMEDIATE)</p>
+                </div>
+
+                <div class="card">
+                    <h2>Git & GitHub</h2>
+                    <p>(INTERMEDIATE)</p>
+                </div>
+
+                <div class="card">
+                    <h2>Postman</h2>
+                    <p>(INTERMEDIATE)</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+    <div class="container">
+        <h1 class="section-heading"><span>My </span>Projects</h1>
+        <p>Here are some of my featured works</p>
+
+        <div class="card-wrapper">
+
+            <div class="card">
+                <h2>ChikitshaSpace</h2>
+                <p>
+                    Built a secure healthcare system using Spring Boot with REST APIs and role-based access.
+                </p>
+            </div>
+
+            <div class="card">
+                <h2>Supermarket Management</h2>
+                <p>
+                    Java + JDBC project with full CRUD operations and optimized SQL queries.
+                </p>
+            </div>
+
+            <div class="card">
+                <h2>Product Management System</h2>
+                <p>
+                    React app with add, update, delete & search functionality using reusable components.
+                </p>
+            </div>
+
+            <div class="card">
+                <h2>Library Management System</h2>
+                <p>
+                    Built a system to manage books, users, and issue/return records.<br>
+                    Implemented CRUD operations with database integration.
+                </p>
+            </div>
+
+            <div class="card">
+                <h2>Weather Forecast App</h2>
+                <p>
+                    Developed a weather application using API integration.<br>
+                    Displays real-time weather data like temperature, humidity, and conditions.<br>
+                    Built with responsive UI for better user experience.
+                </p>
+            </div>
+
+
+            <div class="card">
+                <h2>Tic Tac Toe Game</h2>
+                <p>
+                    Interactive React-based game with real-time UI updates and winner logic.
+                </p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+    <section class="freelancer">
+        <h1>Open to Job Opportunities</h1>
+
+        <p>
+            I am a passionate Full Stack Developer seeking opportunities to start my professional career.<br>
+            Skilled in building responsive and scalable web applications using modern technologies.<br>
+            Eager to contribute, learn, and grow in a dynamic work environment.
+        </p>
+
+        <a href="./images/Srishti_Final.pdf" download class="btn btn-primary">
+            Download My CV
+        </a>
+    </section>
+    <section id="achievement" class="achievement">
+        <div class="container">
+            <h1 class="section-heading"><span>My </span>Achievements </h1>
+            <p>Some of the achievements that I have achieved are here</p>
+
+            <div class="highlight-wrapper">
+
+            <div class="highlight-card">
+                <h2>🏆 Smart India Hackathon (SIH)</h2>
+                <p>Secured 3rd Position among 50+ teams for building an innovative solution.</p>
+            </div>
+
+            <div class="highlight-card">
+                <h2>📄 Patent & Research Publication</h2>
+                <p>Published a patent and research paper for "ChikitshaSpace – Healthcare System".</p>
+            </div>
+
+        </div>
+
+            <div class="card-wrapper">
+                <div class="card">
+                    <div class="overlay">
+                        <span>Category</span>
+                        <a href="#">C Programming</a>
+                    </div>
+                    <img src="./certificates/Coursera_C for Everyone.jpg" alt="">
+                </div>
+                <div class="card">
+                    <div class="overlay">
+                        <span>Category</span>
+                        <a href="#">Process Mining</a>
+                    </div>
+                    <img src="./certificates/Process Mining.jpg.jpg" alt="">
+                </div>
+                <div class="card">
+                    <div class="overlay">
+                        <span>Category</span>
+                        <a href="#">Cloud Technology</a>
+                    </div>
+                    <img src="./certificates/54[70].jpg" alt="">
+                </div>
+                <div class="card">
+                    <div class="overlay">
+                        <span>Category</span>
+                        <a href="#">Cloud Computing </a>
+                    </div>
+                    <img src="./certificates/Cloud Foundation.jpg.jpg" alt="">
+                </div>
+                <div class="card">
+                    <div class="overlay">
+                        <span>Category</span>
+                        <a href="#">Celonis Foundation</a>
+                    </div>
+                    <img src="./certificates/Celonis Foundation.jpg" alt="">
+                </div>
+                <div class="card">
+                    <div class="overlay">
+                        <span>Category</span>
+                        <a href="#">Cloud Architect</a>
+                    </div>
+                    <img src="./certificates/Cloud Architecting.jpg.jpg" alt="">
+                </div>
+                <div class="card">
+                    <div class="overlay">
+                        <span>Category</span>
+                        <a href="#">Execution Management Counsulting Program </a>
+                    </div>
+                    <img src="./certificates/Execution_Management_Consulting_Program_for_Students_Badge20230208-30-awneah.jpg"
+                        alt="">
+                </div>
+                <div class="card">
+                    <div class="overlay">
+                        <span>Category</span>
+                        <a href="#">OOPs in Java </a>
+                    </div>
+                    <img src="./certificates/Object Oriented Programming in Java.jpg" alt="">
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h1 class="section-heading">Contact <span>Me</span></h1>
+            <p>For all enquiries, please contact me using the form below</p>
+            <div class="card-wrapper">
+                <div class="card">
+                    <h2>Call Me On</h2>
+                    <h6>+91 76******67</h6>
+                </div>
+                <div class="card">
+                    <h2>Email Me At</h2>
+                    <h6>sh*********61@gmail.com</h6>
+                </div>
+                <div class="card">
+                    <h2>Address</h2>
+                    <h6>West Bengal</h6>
+                </div>
+            </div>
+            <div class="input-wrap">
+                <input type="text" placeholder="Your Name *">
+                <input type="email" placeholder="Your Email*">
+            </div>
+            <div class="input-wrap-2">
+                <input type="text" placeholder="Your Subject...">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Your Message..."></textarea>
+            </div>
+            <div class="btn-wrapper">
+                <button class="btn btn-primary">Send Message</button>
+            </div>
+
+        </div>
+    </section>
+    <footer>
+        <img class="footer-logo" src="./images/logo-2.png" alt="">
+        <div class="copyright">
+            Copyright 2023 &copy; Srishti Shaw. All Right Reserved.
+        </div>
+    </footer>
+</body>
+
+</html>
